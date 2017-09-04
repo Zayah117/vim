@@ -35,6 +35,9 @@ set hlsearch
 " Highlight search terms as you type them
 set incsearch
 
+" Enable spell check
+set spell spelllang=en_us
+
 
 
 
@@ -43,6 +46,9 @@ let mapleader="\<Space>"
 
 " Set the sequence 'jk' to hit escape
 inoremap jk <esc>
+
+" Toggle spell check
+nnoremap <leader>s :set spell!
 
 " Movement
 " up
