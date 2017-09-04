@@ -46,13 +46,13 @@ inoremap jk <esc>
 
 " Movement
 " up
-noremap t k
+"noremap t k
 " down
-noremap h j
+"noremap h j
 " left
-noremap d h
+"noremap d h
 " right
-noremap n l
+"noremap n l
 
 " command mode to ;
 noremap ; :
