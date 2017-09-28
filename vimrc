@@ -18,7 +18,7 @@ set clipboard=unnamed
 set autoindent
 
 " Try to put the indent level at the right place
-set smartindent
+" set smartindent
 
 " Keep vim files in the ~/.vim folder
 " set viminfo='100,h,n~/.vim/viminfo
@@ -38,7 +38,14 @@ set incsearch
 " Enable spell check
 set spell spelllang=en_us
 
-
+" INDENTION
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" on pressing tab, insert 4 spaces
+set expandtab
 
 
 " Set the leader to space
