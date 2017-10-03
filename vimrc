@@ -38,6 +38,9 @@ set incsearch
 " Enable spell check
 set spell spelllang=en_us
 
+" Set number lines
+set nu
+
 " INDENTION
 filetype plugin indent on
 " show existing tab with 4 spaces width
