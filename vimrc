@@ -42,7 +42,7 @@ set spell spelllang=en_us
 set nu
 
 " Set colorscheme
-colorscheme monokai_mod
+colorscheme monokai
 
 " INDENTION
 filetype plugin indent on
