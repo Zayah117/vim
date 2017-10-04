@@ -41,6 +41,9 @@ set spell spelllang=en_us
 " Set number lines
 set nu
 
+" Set colorscheme
+colorscheme monokai_mod
+
 " INDENTION
 filetype plugin indent on
 " show existing tab with 4 spaces width
